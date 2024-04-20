@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { useNavigate } from "react-router";
 import Theme from "../components/Theme";
 import GridaleLoader from "../Loaders/GridaleLoader";
-import Cee from "../assets/Cee.png";
+import Raki from "../assets/Rakesh.png";
 import MainButton from "../components/MainButton";
 import { useGridSettings } from "../components/GridContext";
 import Sound from "../components/Sound";
@@ -42,7 +42,7 @@ const Home = () => {
           Developed by Rakesh
         </p>
         <div className="w-6 h-6 inline-block rounded-sm dark:border-2 dark:border-white">
-          <img src={Cee} alt="Ceejay" className="w-full" />
+          <img src={Raki} alt="Rakesh" className="w-full" />
         </div>
       </div>
     </div>
